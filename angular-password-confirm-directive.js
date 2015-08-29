@@ -1,6 +1,6 @@
 (function(angular){
     angular
-        .module("passwordConfirmDirective")
+        .module("passwordConfirmDirective",[])
         .directive('compareTo', compareTo);
 
     function compareTo() {
